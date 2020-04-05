@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Corona Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Coronavirus Tracker</h1>    
+    <div id="stats">
+        <div class="card soft-shadow">Confirmed: <span id="confirmed"></span></div>
+        <div class="card soft-shadow">Deaths: <span id="deaths"></span></div>
+        <div class="card soft-shadow">Recovered: <span id="recovered"></span></div>
+    </div>
+    
+    <div id="map"></div>
+</body>    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=API_KEY&callback=initMap">
+        </script>
+
+</html>

@@ -1,0 +1,28 @@
+body {
+    background: #20262E;
+    padding: 20px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+#map {
+    height: 600px;
+    width: 100%;
+}
+
+#stats {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    border-radius: 3px;
+    padding: 10px;
+    margin: 4px 6px;
+    background: rgb(114, 114, 114);
+    height: 40px;
+}
+
+.soft-shadow {
+    box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12);
+}
